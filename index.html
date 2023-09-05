@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert to CodingKey</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <textarea class="textarea" id="swiftStruct" rows="10" cols="50" placeholder="Enter Swift Code..."></textarea>
+        <button class="center-button" onclick="convertToJSON()">Convert to CodingKey</button>
+        <textarea class="textarea" id="resultStruct" rows="10" cols="50" placeholder="Resulting JSON..." readonly></textarea>
+    </div>
+
+    <script type="text/javascript">
+        let scriptURL = "./js/main.js?v="+Math.random()
+        let scriptElement = document.createElement("script")
+        scriptElement.src = scriptURL
+        document.head.appendChild(scriptElement)
+    </script>
+</body>
+</html>
