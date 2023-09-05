@@ -1,6 +1,6 @@
 # CodingKey Generator
 
-## Swift Class 에 CodingKey 소스를 생성해주는 간단한 웹 페이지 입니다.
+Swift Class 에 CodingKey 소스를 생성해주는 간단한 웹 페이지 입니다.
 
 변경 전 (예제)
 ---
